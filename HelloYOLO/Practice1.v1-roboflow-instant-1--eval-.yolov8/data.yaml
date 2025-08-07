@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['bottle', 'fan']
+
+roboflow:
+  workspace: bayek-j3dbj
+  project: practice1-mblwd
+  version: 1
+  license: MIT
+  url: https://universe.roboflow.com/bayek-j3dbj/practice1-mblwd/dataset/1
